@@ -5,16 +5,16 @@ public class MediaCompany {
         Subscriber juan = new Subscriber("Juan");
         Subscriber oliver = new Subscriber("Oliver");
 
-        NewsLetter newsLetter = new NewsLetter();
-        newsLetter.subscribe(maria);
-        newsLetter.subscribe(juan);
-        newsLetter.subscribe(oliver);
+        NewsAgency newsAgency = new NewsAgency();
+        newsAgency.subscribe(maria);
+        newsAgency.subscribe(juan);
+        newsAgency.subscribe(oliver);
 
-        newsLetter.addNewsUpdate("McDonald | New Deals Now Available!");
+        newsAgency.addNewsUpdate("McDonald | New Deals Now Available!");
 
-        newsLetter.unsubscribe(juan);
+        newsAgency.unsubscribe(juan);
 
-        newsLetter.addNewsUpdate("KathNiel confirmed breakup!");
+        newsAgency.addNewsUpdate("KathNiel confirmed breakup!");
 
     }
 
