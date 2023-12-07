@@ -38,4 +38,5 @@
 
 ## Class Diagram
 
+![observerPattern_Class Diagram](https://github.com/JEAtole/Design-Patterns/assets/126703958/3a8679ee-d47f-421d-a979-998ef3cba9c6)
 
