@@ -1,15 +1,10 @@
-package factoryPattern;
-
 public class Dog implements Pet {
     private String breed;
 
-    public String getBreed() {
-        return breed;
-    }
-
-    public void setBreed(String breed) {
+    public Dog (String breed) {
         this.breed = breed;
     }
+
     @Override
     public String makeSound() {
         return "Aw, aw!";
@@ -17,6 +12,11 @@ public class Dog implements Pet {
 
     @Override
     public String play() {
-        return "Catching objects that you throw!";
+        return "Plays fetch!";
     }
+
+    public String getBreed() {
+        return breed;
+    }
+
 }

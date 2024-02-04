@@ -1,31 +1,28 @@
-package factoryPattern;
-
-public class PetRecord {
+class PetRecord {
     private String petId;
     private String petName;
     private Pet pet;
 
-    public String getPetId() {
-        return petId;
-    }
-
-    public void setPetId(String petId) {
+    public PetRecord(String petId, String petName, Pet pet) {
         this.petId = petId;
-    }
-
-    public String getPetName() {
-        return petName;
-    }
-
-    public void setPetName(String petName) {
         this.petName = petName;
-    }
-
-    public Pet getPet() {
-        return pet;
-    }
-
-    public void setPet(Pet pet) {
         this.pet = pet;
+    }
+
+    public void displayInfo() {
+        System.out.println("Pet ID: " + petId);
+        System.out.println("Pet Name: " + petName);
+        System.out.println("Pet Type: " + pet.getClass().getSimpleName());
+
+        if (pet instanceof Dog) {
+            System.out.println("Breed: " + ((Dog) pet).getBreed());
+        } else if (pet instanceof Cat) {
+            System.out.println("Number of Lives: " + ((Cat) pet).getNoOfLives());
+        }
+
+        System.out.println("Sound: " + pet.makeSound());
+        System.out.println("Play: " + pet.play());
+
+        System.out.println("------------------------------");
     }
 }
