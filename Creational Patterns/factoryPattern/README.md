@@ -16,4 +16,5 @@ In a pet clinic system, there is a need to manage and display information about 
 
 ## Class Diagram
 
-![image](https://github.com/JerryEsperanza/factoryPattern/assets/142370600/0506f134-a5f6-4d98-a817-cd6f7a8466c7)
+![Design Patterns - factoryPattern](https://github.com/JEAtole/Design-Patterns/assets/126703958/10f3a071-9648-4d55-abe3-58c4df7d5857)
+
