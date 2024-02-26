@@ -13,7 +13,7 @@ Implement two types of Strategy:
 **A. DefenseStrategy** <br/>
      1. Shield <br/>
      2. Dodge <br/>
-     3. CreateMagic
+     3. CreateBarrier
 
 **B. AttackStrategy** <br/>
      1.  CastSpell <br/>
@@ -55,3 +55,5 @@ Refactor the existing codes and provide the UML Diagram:
     }
 
 ## Class Diagram
+
+![strategyPattern_Class Diagram](https://github.com/JEAtole/Design-Patterns/assets/126703958/6c1939f3-e481-4fd6-9787-154afd267349)
