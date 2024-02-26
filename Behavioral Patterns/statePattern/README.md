@@ -45,3 +45,6 @@ Implement the State pattern to improve code maintainability and flexibility:
 **Note:  No if-else nor switch will be used**
 
 ## Class Diagram
+
+![statePattern_Class Diagram](https://github.com/JEAtole/Design-Patterns/assets/126703958/7bcb9056-48ee-4723-9d12-f85aef331e88)
+
