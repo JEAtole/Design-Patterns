@@ -8,5 +8,4 @@ public class Lights implements Device {
         System.out.println("The lights are turned off.");
     }
 
-
 }
